@@ -1,0 +1,45 @@
+*{
+  box-sizing: border-box;
+  align-items: center;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: red;
+
+  border: white 1px solid;
+  border-radius: 6px;
+  height: 100vh;
+}
+
+i{
+  color: white;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.Busca{
+  border-radius: 8px;
+  border: none;
+  padding: 5px 110px;
+  margin-left: 10px;
+}
+
+main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+button{
+  border: none;
+  background-color: transparent;
+  color: white;
+}
