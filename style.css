@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+
+    align-items: center;
+
+
+    font-family: 'Roboto', sans-serif;
+
+    background-color: rgb(255, 0, 0);
+
+    border: white 1px solid;
+    border-radius: 6px;
+
+}
+
+header{
+    margin: auto;
+    padding: 0px;
+    border-radius: 6px;
+    background-color: white;
+    width: 100%;
+    height: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1{
+    margin-left: 40px;
+    font-size: 25px;
+    margin-top: -26px;
+    font-style: bold;
+    color: red;
+}
+
+i{
+    color: red;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10px;
+    margin-bottom: 100%;
+}
+
+h2{
+    text-align: left;
+    color: white;
+    margin-left: 0px;
+}
+
+p{
+    text-align: left;
+    margin-left: 0px;
+    margin-top: -20px;
+}
+
+input::placeholder{
+    margin-right: 40px;
+    text-align: justify;
+    font-size: bold;
+}
+
+input{
+    padding: 15px 0px;
+    border: none;
+    border-radius: 6px;
+    margin-top: 15px;
+    margin-bottom: auto;
+    width: 430px;
+    margin-left: 0px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+button{
+    padding: 15px 5px;
+    border: none;
+    border-radius: 6px;
+    margin-top: 30px;
+    width: 100px;
+    color:black;
+    align-items: center;
+    justify-content: center;
+}
