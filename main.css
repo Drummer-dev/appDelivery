@@ -1,15 +1,27 @@
 *{
   box-sizing: border-box;
-  align-items: center;
+  
 }
 
 body{
+  display: center;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  
   font-family: 'Roboto', sans-serif;
   background-color: red;
 
   border: white 1px solid;
   border-radius: 6px;
   height: 100vh;
+}
+
+header{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
 }
 
 i{
