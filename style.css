@@ -7,6 +7,7 @@ body{
     flex-direction: column;
     justify-content: center;
     height: 100%;
+    min-height: 661px;
 
     align-items: center;
 
@@ -15,8 +16,6 @@ body{
 
     background-color: rgb(255, 0, 0);
 
-    border: white 1px solid;
-    border-radius: 6px;
 
 }
 
@@ -54,6 +53,7 @@ main{
     grid-template-columns: 1fr 1fr;
     margin-top: 10px;
     margin-bottom: 100%;
+    width: 100%;
 }
 
 h2{
@@ -80,7 +80,8 @@ input{
     border-radius: 6px;
     margin-top: 15px;
     margin-bottom: auto;
-    width: 430px;
+    width: 100%;
+    max-width: 480px;
     margin-left: 0px;
     justify-content: center;
     align-items: center;
